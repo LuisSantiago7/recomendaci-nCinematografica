@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Cine.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="./Cine.js"></script>
+    <title>Cine JavaScript</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <img id="logo" src="./Assets/js-logo-design-vector-icon-symbol-luxury-700-229656420.jpg">
+            <div id='endpoints'>
+                <p>inicio</p>
+                <p>Cartelera</p>
+                <p>Buzon</p>
+                <p>Adquiere tus boletos</p>
+                <p>Nosotros</p>
+            </div>
+        </div>
+    </header>
+    <div id="recomendacion">
+        <h1 style="font-size: 55px;">¿Quieres que te recomiende una pelicula?</h1>
+        <div>
+            <h3 style="font-size: 30px;">Introduce tu edad</h3>
+            <input type="number" class="buttons" id="ageUser" min="3" max="100" style="text-align: center;" >
+            <h3 style="font-size: 30px;">Cual es tu genero cinematografico favorito?</h3>
+            <select class="buttons" id="genderMovie">
+                <option>Comedia</option>
+                <option>Drama</option>
+                <option>Musical</option>
+                <option>Crimen</option>
+            </select>
+        </div>
+            <input type="submit" class="buttons" id="sendResponse" onclick="getGender()">
+    </div>
+
+    <h2 id="anuncioId"></h2>
+    
+    <div id="listaRecomendaciones">
+        <img class="hidden" id="ElpadrinoId" src="./Assets/Elpadrino.webp"></img>
+        <img class="hidden" id="NemoId" src="./Assets/Nemo.jpg"></img>
+        <img class="hidden" id="ReyLeonId" src="./Assets/ReyLeon.webp"></img>
+        <img class="hidden" id="ShowmanId" src="./Assets/Showman.png"></img>
+        <img class="hidden" id="SingId" src="./Assets/Sing.jpeg"></img>
+        <img class="hidden" id="SonComoninosId" src="./Assets/SonComoninos.webp"></img>
+        <img class="hidden" id="TotoroId" src="./Assets/Totoro.webp"></img>
+        <img class="hidden" id="ToystoryId" src="./Assets/Toystory.webp"></img>
+        <img class="hidden" id="fnafId" src="./Assets/fnaf.jpg"></img>
+        <img class="hidden" id="godzillakongId" src="./Assets/godzillakong.webp"></img>
+        <img class="hidden" id="oppenheimerId" src="./Assets/oppenheimer.jpg"></img>
+        <img class="hidden" id="zombielandId" src="./Assets/zombieland.jpg"></img>
+        <img class="hidden" id="secretoenlamontañaId" src="./Assets/secretoenlamontaña.jpg"></img>
+    </div>
+</body>
+</html>

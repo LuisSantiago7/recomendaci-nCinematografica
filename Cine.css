@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+    background-color: rgba(35, 31, 32) ;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#header {
+    width: 100%;
+    background-color: black;
+    height: 77px;
+    display: flex;
+}
+#header #endpoints{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+#header #endpoints p{
+    color: white;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 28px;
+
+}
+#header #endpoints p:hover{
+    background-color: #ffffff18;
+    border-bottom: 1px solid #ffffff;
+    transition: 1.25s;
+}
+#logo{
+    margin: 0%;
+    width: 50px;
+    height: 77px;
+}
+#recomendacion{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+    0 0 5px rgba(0, 0, 0, 0.5);
+}
+.buttons{
+    margin: 10px;
+    width: 15%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+}
+
+#sendResponse:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+#sendResponse:not(hover){
+    transform: scale(1);
+    transition: 1.2s;
+}
+
+.hidden{
+    display: none;
+}
+
+#anuncioId{
+    color: white;
+    text-align: center;
+}
+#listaRecomendaciones{
+    text-align: center;
+}
+#listaRecomendaciones img{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+        0 0 5px rgba(0, 0, 0, 0.5);
+}
+#listaRecomendaciones img:hover{
+    transform: scale(1.05);
+    transition: 1.2s;
+}
+#listaRecomendaciones img:not(hover){
+    transform: scale(1);
+    transition: 1.2s;
+}
